@@ -1,0 +1,32 @@
+.home__title {
+  font-family: Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 43px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  -moz-text-fill-color: black;
+  -webkit-text-fill-color: black;
+  -moz-text-stroke-color: white;
+  -webkit-text-stroke-color: white;
+  -moz-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 1px;
+}
+
+.home__subtitle {
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+.home__container {
+  margin-top: -780px;
+}
+
+.home__text {
+  padding: 50px;
+}

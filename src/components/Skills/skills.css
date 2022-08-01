@@ -1,0 +1,29 @@
+.skills__container {
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  width: 80%;
+  margin: 100px auto 0;
+}
+
+.skills__image {
+  width: 100%;
+  padding: 50px;
+}
+
+.skills__text {
+  width: 100%;
+  padding: 50px;
+}
+
+.skills__icon {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+}
+
+.skills__list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}

@@ -1,0 +1,48 @@
+.list__item {
+  list-style: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header {
+  background-image: url("../../images/‏‏bkg2.jpg");
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: 900px 1000px;
+  background-position: left;
+  height: 1000px;
+  width: 80%;
+}
+
+.nav__container {
+  flex-direction: row;
+  display: flex;
+  padding: 50px;
+}
+
+.nav__item {
+  text-decoration: none;
+  font-family: Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: white;
+}
+
+.list__item:first-of-type .nav__item {
+  color: black;
+}
+
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+  display: flex;
+  position: absolute;
+  background-color: #2f80ed;
+  align-self: flex-end;
+  right: 0;
+  top: 64px;
+  transform: rotate(15deg);
+  /* styles for header__square-pic */
+}

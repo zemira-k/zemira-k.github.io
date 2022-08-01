@@ -1,0 +1,14 @@
+.about__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.about__image {
+  width: 100%;
+  padding: 50px;
+}
+
+.about__text {
+  width: 100%;
+  padding: 50px;
+}
