@@ -3,7 +3,7 @@ import React from "react";
 
 export const Header = () => {
   return (
-    <header className="header" id="header">
+    <header className="container header" id="header">
       <nav className="nav__container">
         <li className="list__item">
           <a className="nav__item" href="#home">

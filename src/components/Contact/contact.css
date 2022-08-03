@@ -1,0 +1,89 @@
+.contact__container {
+  background-image: url("../../images/blast-burst-vector.jpg");
+  background-size: 100% 100%;
+  margin: 100px auto 0;
+  padding: 50px;
+}
+
+.inner__container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  background-color: white;
+  width: 80%;
+  margin: auto;
+}
+
+.contact__text {
+  padding: 50px;
+  width: 60%;
+}
+
+.contact__Subtitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 46px;
+  color: #000c24;
+}
+
+.contact__form-formset {
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__form-input {
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 100%;
+  border-radius: 40px;
+  font-size: 20px;
+  line-height: 1.37;
+  padding: 11px 18px;
+  margin-bottom: 12px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+.contact__form-input::placeholder {
+  color: #bfbfbf;
+}
+
+.contact__form-input:focus {
+  outline: 3px solid #40a6a9;
+}
+
+.contact__form-textarea {
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 16px 0 0 24px;
+  outline: none;
+  resize: none;
+  width: 100%;
+  min-height: 132px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 20px;
+  margin-bottom: 19px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.contact__form-textarea::placeholder {
+  color: #bfbfbf;
+}
+
+.contact__form-textarea:focus {
+  outline: 3px solid #40a6a9;
+}
+
+.contact__form {
+  padding: 50px;
+  width: 100%;
+}

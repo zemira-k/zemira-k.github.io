@@ -1,29 +1,38 @@
 .skills__container {
   display: flex;
   flex-direction: row;
-  height: 500px;
-  width: 80%;
-  margin: 100px auto 0;
+  /* background-image: url("../../images/‏‏bkg3.jpg");
+  background-repeat: no-repeat;
+  background-size: 650px 950px;
+  background-position: right; */
 }
 
 .skills__image {
-  width: 100%;
-  padding: 50px;
+  width: 475px;
+  height: 653px;
 }
 
 .skills__text {
   width: 100%;
-  padding: 50px;
 }
 
 .skills__icon {
-  width: 20px;
-  height: 20px;
+  width: 150px;
+  height: 150px;
   padding: 10px;
 }
 
 .skills__list {
-  list-style: none;
+  grid-gap: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   padding: 0;
+  text-transform: uppercase;
+}
+
+.skill {
+  align-items: center;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

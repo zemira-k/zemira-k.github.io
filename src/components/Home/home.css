@@ -1,5 +1,4 @@
 .home__title {
-  font-family: Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 38px;
@@ -15,7 +14,6 @@
 }
 
 .home__subtitle {
-  font-family: "Spartan";
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -24,7 +22,7 @@
 }
 
 .home__container {
-  margin-top: -780px;
+  margin-top: -60%;
 }
 
 .home__text {

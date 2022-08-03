@@ -1,4 +1,4 @@
-import pic1 from "../../images/61-2.jpg";
+// import pic1 from "../../images/61-2.jpg";
 import {
   FaHtml5,
   FaCss3,
@@ -8,48 +8,49 @@ import {
   FaGithub,
   FaNpm,
 } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
 
 export const Skills = () => {
   return (
-    <section className="skills__container" id="skills">
+    <section className="container skills__container" id="skills">
       <div className="skills__text">
-        <h1>skills</h1>
+        <h2>skills</h2>
         <ul className="skills__list">
-          <li>
-            <h2>
-              <FaHtml5 className="skills__icon" />
-              html
-            </h2>
+          <li className="skill">
+            <FaHtml5 className="skills__icon" />
+            <p>html</p>
           </li>
-          <li>
-            <h2>
-              <FaCss3 className="skills__icon" />
-              css
-            </h2>
+          <li className="skill">
+            <FaCss3 className="skills__icon" />
+            <p>css</p>
           </li>
-          <li>
+          <li className="skill">
             <FaJs className="skills__icon" />
             <p>javascript</p>
           </li>
-          <li>
+          <li className="skill">
             <FaReact className="skills__icon" />
             <p>react</p>
           </li>
-          <li>
+          <li className="skill">
             <FaNodeJs className="skills__icon" />
             <p>nodejs</p>
           </li>
-          <li>
+          <li className="skill">
             <FaGithub className="skills__icon" />
             <p>git</p>
           </li>
-          <li>
+          <li className="skill">
             <FaNpm className="skills__icon" />
             <p>npm</p>
           </li>
+          <li className="skill">
+            <SiMongodb className="skills__icon" />
+            <p>mongodb</p>
+          </li>
         </ul>
       </div>
-      <img src={pic1} alt="" className="skills__image"></img>
+      {/* <img src={pic1} alt="" className="skills__image"></img> */}
     </section>
   );
 };
