@@ -18,11 +18,12 @@
   font-weight: 600;
   font-size: 24px;
   line-height: 27px;
-  color: #ffffff;
+  color: white;
 }
 
 .home__container {
   margin-top: -60%;
+  background-color: brown;
 }
 
 .home__text {
