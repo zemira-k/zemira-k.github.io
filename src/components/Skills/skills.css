@@ -1,6 +1,8 @@
 .skills__container {
   display: flex;
   flex-direction: row;
+  background-color: gainsboro;
+  border-radius: 100px;
   /* background-image: url("../../images/‏‏bkg3.jpg");
   background-repeat: no-repeat;
   background-size: 650px 950px;

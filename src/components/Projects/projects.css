@@ -1,0 +1,33 @@
+.project__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.right__button,
+.left__button {
+  background-color: #fff;
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  width: 10%;
+}
+
+.right__button_type_not-active,
+.left__button_type_not-active {
+  visibility: hidden;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+}
+
+.button__icon {
+  width: 50px;
+  height: 50px;
+}
+
+.button__icon:hover {
+  width: 60px;
+  height: 60px;
+}
