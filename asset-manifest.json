@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.be6c821a.css",
-    "main.js": "/static/js/main.82f08b4c.js",
+    "main.css": "/static/css/main.6c330511.css",
+    "main.js": "/static/js/main.ae17e888.js",
     "static/js/787.ea5dd450.chunk.js": "/static/js/787.ea5dd450.chunk.js",
     "static/media/blast-burst-vector.jpg": "/static/media/blast-burst-vector.c883fd82ec0c6b743503.jpg",
+    "static/media/news.jpg": "/static/media/news.01aa6e57582f687b4ffb.jpg",
+    "static/media/portland.jpg": "/static/media/portland.70fb30f3473a97c12ce1.jpg",
+    "static/media/around.jpg": "/static/media/around.9286fe5976ec242c5e94.jpg",
     "static/media/61-2.jpg": "/static/media/61-2.cf086799d898c32d87bd.jpg",
     "static/media/roboto-slab-700.woff": "/static/media/roboto-slab-700.7cb09bef6990e87c9e2b.woff",
     "static/media/roboto-slab-400-regular.woff": "/static/media/roboto-slab-400-regular.b46b2661355d7b1e9e9e.woff",
@@ -22,12 +25,12 @@
     "static/media/roboto-400-regular.woff2": "/static/media/roboto-400-regular.176f8f5bd5f02b3abfcf.woff2",
     "static/media/roboto-900.woff2": "/static/media/roboto-900.870c8c1486f76054301a.woff2",
     "index.html": "/index.html",
-    "main.be6c821a.css.map": "/static/css/main.be6c821a.css.map",
-    "main.82f08b4c.js.map": "/static/js/main.82f08b4c.js.map",
+    "main.6c330511.css.map": "/static/css/main.6c330511.css.map",
+    "main.ae17e888.js.map": "/static/js/main.ae17e888.js.map",
     "787.ea5dd450.chunk.js.map": "/static/js/787.ea5dd450.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be6c821a.css",
-    "static/js/main.82f08b4c.js"
+    "static/css/main.6c330511.css",
+    "static/js/main.ae17e888.js"
   ]
 }
