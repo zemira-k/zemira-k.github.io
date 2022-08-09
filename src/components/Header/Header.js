@@ -1,5 +1,4 @@
 import React from "react";
-// import pic from "../../images/61-2.jpg";
 
 export const Header = () => {
   return (

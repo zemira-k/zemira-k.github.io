@@ -1,4 +1,3 @@
-// import pic1 from "../../images/61-2.jpg";
 import {
   FaHtml5,
   FaCss3,
@@ -50,7 +49,6 @@ export const Skills = () => {
           </li>
         </ul>
       </div>
-      {/* <img src={pic1} alt="" className="skills__image"></img> */}
     </section>
   );
 };

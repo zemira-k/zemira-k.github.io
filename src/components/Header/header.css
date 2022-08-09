@@ -5,28 +5,35 @@
 }
 
 .header {
-  /* background-image: url("../../images/‏‏bkg2.jpg"); */
+  background-image: url("../../images/a.jpg");
   margin: auto;
-  /* background-repeat: no-repeat;
-  background-size: 100% 90%; */
-  min-height: 1000px;
+  background-repeat: no-repeat;
+  background-size: 100% 90%;
+  min-height: 800px;
 }
 
 .nav__container {
   flex-direction: row;
   display: flex;
   padding: 50px;
+  /* align-items: self-end; */
+  /* justify-self: end; */
+  justify-content: flex-end;
 }
 
 .nav__item {
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 20px;
-  color: black;
+  font-size: 22px;
+  line-height: 24px;
+  color: white;
 }
 
 .list__item:first-of-type .nav__item {
-  color: #f44336;
+  color: deeppink;
+}
+
+.nav__item:hover {
+  opacity: 0.5;
 }

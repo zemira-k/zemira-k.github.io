@@ -4,7 +4,7 @@ import {
   IoMdArrowDropleftCircle,
 } from "react-icons/io";
 
-import newsImage from "../../images/news.jpg";
+import newsImage from "../../images/news1.jpg";
 import aroundImage from "../../images/around.jpg";
 import portland from "../../images/portland.jpg";
 
@@ -68,7 +68,7 @@ export const Projects = () => {
 
   return (
     <section className="container" id="projects">
-      <h2>projects</h2>
+      {/* <h2 className="projects__title">projects</h2> */}
       <div className="projects">
         <button
           onClick={handleLeftClick}

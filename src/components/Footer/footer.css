@@ -1,10 +1,21 @@
 .footer__container {
   font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
   text-align: center;
+  background-image: url("../../images/a.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.footer__title {
+  margin-bottom: 20px;
   color: #ffffff;
-  background-color: black;
-  padding: 50px;
+}
+
+.footer__copyrights {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #ffffff;
 }
