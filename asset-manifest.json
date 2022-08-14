@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.a3766585.css",
-    "main.js": "/static/js/main.8106338e.js",
+    "main.css": "/static/css/main.d3239ed8.css",
+    "main.js": "/static/js/main.2c45d13d.js",
     "static/js/787.ea5dd450.chunk.js": "/static/js/787.ea5dd450.chunk.js",
     "static/media/z (3).jpg": "/static/media/z (3).16945743906f54530a56.jpg",
     "static/media/d.jpg": "/static/media/d.e0701c865b8512336b6c.jpg",
-    "static/media/a.jpg": "/static/media/a.25360c387f44f96e16e3.jpg",
+    "static/media/a.jpg": "/static/media/a.b8b1f08c98dd3864576e.jpg",
     "static/media/portland.jpg": "/static/media/portland.70fb30f3473a97c12ce1.jpg",
     "static/media/around.jpg": "/static/media/around.9286fe5976ec242c5e94.jpg",
     "static/media/news1.jpg": "/static/media/news1.9e7bafc90dee04909ac8.jpg",
@@ -26,12 +26,12 @@
     "static/media/roboto-400-regular.woff2": "/static/media/roboto-400-regular.176f8f5bd5f02b3abfcf.woff2",
     "static/media/roboto-900.woff2": "/static/media/roboto-900.870c8c1486f76054301a.woff2",
     "index.html": "/index.html",
-    "main.a3766585.css.map": "/static/css/main.a3766585.css.map",
-    "main.8106338e.js.map": "/static/js/main.8106338e.js.map",
+    "main.d3239ed8.css.map": "/static/css/main.d3239ed8.css.map",
+    "main.2c45d13d.js.map": "/static/js/main.2c45d13d.js.map",
     "787.ea5dd450.chunk.js.map": "/static/js/787.ea5dd450.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3766585.css",
-    "static/js/main.8106338e.js"
+    "static/css/main.d3239ed8.css",
+    "static/js/main.2c45d13d.js"
   ]
 }
