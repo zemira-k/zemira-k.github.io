@@ -7,7 +7,7 @@ export const Contact = () => {
           <p className="contact__Subtitle">Drop me a line.</p>
           <p className="contact__Subtitle">I would like to hear from you.</p>
         </div>
-        <form className="contact__form" name="form" novalidate>
+        <form className="contact__form" name="form" noValidate>
           <fieldset className="contact__form-formset">
             <input
               className="contact__form-input"
@@ -22,7 +22,7 @@ export const Contact = () => {
               required
             />
             <textarea
-              class="contact__form-textarea"
+              className="contact__form-textarea"
               placeholder="Message"
             ></textarea>
             <button

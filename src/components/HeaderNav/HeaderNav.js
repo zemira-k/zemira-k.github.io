@@ -1,8 +1,10 @@
 import React from "react";
+import { GiHamburgerMenu } from "react-icons/gi";
 
-export const Header = () => {
+export const HeaderNav = () => {
   return (
-    <header className="container header" id="header">
+    <>
+      <GiHamburgerMenu className="header__burger" />
       <nav className="nav__container">
         <li className="list__item">
           <a className="nav__item" href="#home">
@@ -30,6 +32,6 @@ export const Header = () => {
           </a>
         </li>
       </nav>
-    </header>
+    </>
   );
 };

@@ -2,7 +2,7 @@
   display: flex;
   border-radius: 50px;
   background-position: right;
-  background-size: contain;
+  background-size: 40% 100%;
   background-repeat: no-repeat;
   background-image: url("../../images/d.jpg");
   border: 1px solid deeppink;
@@ -35,4 +35,48 @@
   -moz-transform: rotate(0deg) scaleX(1);
   -ms-transform: rotate(0deg) scaleX(1);
   -o-transform: rotate(0deg) scaleX(1);
+}
+
+@media screen and (max-width: 1250px) {
+  .skills__icon {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .skills__list {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .skills__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .skills__container {
+    background-size: 50% 80%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .skills__list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .skills__container {
+    background: none;
+    background-color: seashell;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .skills__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .skills__icon {
+    width: 100px;
+    height: 100px;
+  }
 }

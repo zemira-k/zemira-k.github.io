@@ -7,3 +7,10 @@
 .nav__icon:hover {
   opacity: 0.5;
 }
+
+@media screen and (max-width: 850px) {
+  .nav__icon {
+    width: 30px;
+    height: 30px;
+  }
+}

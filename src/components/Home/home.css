@@ -23,10 +23,41 @@
 }
 
 .home__container {
-  margin-top: -38%;
-  /* background-color: brown; */
+  background-image: url("../../images/a.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
 }
 
 .home__text {
-  padding: 50px;
+  margin-top: 18%;
+  margin-left: 10%;
+}
+
+@media screen and (max-width: 1100px) {
+  .home__container {
+    background-size: contain;
+  }
+
+  .home__title {
+    font-size: 45px;
+  }
+  .home__text {
+    margin-top: 25%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .home__title {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .home__title {
+    font-size: 35px;
+  }
+  .home__subtitle {
+    font-size: 25px;
+  }
 }

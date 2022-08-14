@@ -15,7 +15,6 @@
   cursor: pointer;
   padding: 0;
   border: none;
-  width: 5%;
 }
 
 .right__button_type_not-active,
@@ -23,7 +22,7 @@
   visibility: hidden;
 }
 
-.projects {
+.projects__container {
   display: flex;
   flex-direction: row;
 }

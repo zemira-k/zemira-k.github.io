@@ -67,31 +67,28 @@ export const Projects = () => {
   }
 
   return (
-    <section className="container" id="projects">
+    <section className="container projects__container" id="projects">
       {/* <h2 className="projects__title">projects</h2> */}
-      <div className="projects">
-        <button
-          onClick={handleLeftClick}
-          className={`left__button ${
-            leftButtonActive ? "" : "left__button_type_not-active"
-          }`}
-          type="submit"
-        >
-          <IoMdArrowDropleftCircle className="button__icon" />
-        </button>
-        {projects.map(
-          (el) => el.id === count && <Project key={el.id} el={el} />,
-        )}
-        <button
-          onClick={handleRightClick}
-          className={`right__button ${
-            rightButtonActive ? "" : "right__button_type_not-active"
-          }`}
-          type="submit"
-        >
-          <IoMdArrowDroprightCircle className="button__icon" />
-        </button>
-      </div>
+
+      <button
+        onClick={handleLeftClick}
+        className={`left__button ${
+          leftButtonActive ? "" : "left__button_type_not-active"
+        }`}
+        type="submit"
+      >
+        <IoMdArrowDropleftCircle className="button__icon" />
+      </button>
+      {projects.map((el) => el.id === count && <Project key={el.id} el={el} />)}
+      <button
+        onClick={handleRightClick}
+        className={`right__button ${
+          rightButtonActive ? "" : "right__button_type_not-active"
+        }`}
+        type="submit"
+      >
+        <IoMdArrowDroprightCircle className="button__icon" />
+      </button>
     </section>
   );
 };

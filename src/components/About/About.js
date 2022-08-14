@@ -3,7 +3,7 @@ import pic1 from "../../images/z (3).jpg";
 export const About = () => {
   return (
     <section className="container about__container" id="about">
-      <img src={pic1} alt="" className="image"></img>
+      <img src={pic1} alt="" className="image about__image"></img>
       <div className="about__text">
         <h2 className="about__title">about me</h2>
         <p className="about__subtitle">Hi,</p>
