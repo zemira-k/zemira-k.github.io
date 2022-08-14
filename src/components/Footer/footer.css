@@ -19,3 +19,16 @@
   font-weight: 500;
   color: #ffffff;
 }
+
+@media screen and (max-width: 550px) {
+  .footer__copyrights {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .footer__title {
+    margin-bottom: 10px;
+  }
+  .footer__container {
+    background-position: top;
+  }
+}
