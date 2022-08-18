@@ -4,9 +4,9 @@ import {
   IoMdArrowDropleftCircle,
 } from "react-icons/io";
 
-import newsImage from "../../images/news1.jpg";
-import aroundImage from "../../images/around.jpg";
-import portland from "../../images/portland.jpg";
+import newsImage from "../../images/333.jpg";
+import aroundImage from "../../images/111.jpg";
+import portland from "../../images/222.jpg";
 
 import { Project } from "../Project/Project.js";
 
@@ -22,7 +22,7 @@ export const Projects = () => {
       imgSrc: newsImage,
       title: "news explorer",
       description:
-        "news search engine. find news. login. save news articles or delete them.",
+        "news search engine. find news. login. save articles or delete them.",
       skills: "css, html, react, nodejs, express, restfullApi",
       gitLink: "https://github.com/zemira-k/news-explorer-api",
       siteLink: "https://mynews.students.nomoreparties.sbs/",
@@ -67,28 +67,31 @@ export const Projects = () => {
   }
 
   return (
-    <section className="container projects__container" id="projects">
-      {/* <h2 className="projects__title">projects</h2> */}
-
-      <button
-        onClick={handleLeftClick}
-        className={`left__button ${
-          leftButtonActive ? "" : "left__button_type_not-active"
-        }`}
-        type="submit"
-      >
-        <IoMdArrowDropleftCircle className="button__icon" />
-      </button>
-      {projects.map((el) => el.id === count && <Project key={el.id} el={el} />)}
-      <button
-        onClick={handleRightClick}
-        className={`right__button ${
-          rightButtonActive ? "" : "right__button_type_not-active"
-        }`}
-        type="submit"
-      >
-        <IoMdArrowDroprightCircle className="button__icon" />
-      </button>
+    <section className="container" id="projects">
+      <h2 className="projects__title">projects</h2>
+      <div className="projects__container">
+        <button
+          onClick={handleLeftClick}
+          className={`left__button ${
+            leftButtonActive ? "" : "left__button_type_not-active"
+          }`}
+          type="submit"
+        >
+          <IoMdArrowDropleftCircle className="button__icon" />
+        </button>
+        {projects.map(
+          (el) => el.id === count && <Project key={el.id} el={el} />,
+        )}
+        <button
+          onClick={handleRightClick}
+          className={`right__button ${
+            rightButtonActive ? "" : "right__button_type_not-active"
+          }`}
+          type="submit"
+        >
+          <IoMdArrowDroprightCircle className="button__icon" />
+        </button>
+      </div>
     </section>
   );
 };
