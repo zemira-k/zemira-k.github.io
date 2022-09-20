@@ -8,7 +8,7 @@ import { Home } from "./components/Home/Home";
 export const App = () => {
   return (
     <div className="page__container">
-      {/* <Home /> */}
+      <Home />
       <About />
       <Skills />
       <Projects />
