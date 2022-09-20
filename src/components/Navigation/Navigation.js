@@ -11,16 +11,16 @@ export const Navigation = () => {
   return (
     <nav>
       <a href={emailLink} target="_blank" rel="noreferrer">
-        <MdAlternateEmail className="nav__icon" />
+        <MdAlternateEmail className="nav__big-icon" />
       </a>
       <a href={gitLink} target="_blank" rel="noreferrer">
-        <FiGithub className="nav__icon" />
+        <FiGithub className="nav__big-icon" />
       </a>
       <a href={linkedinLink} target="_blank" rel="noreferrer">
-        <FiLinkedin className="nav__icon" />
+        <FiLinkedin className="nav__big-icon" />
       </a>
       <a href={whatsappLink} target="_blank" rel="noreferrer">
-        <FaWhatsapp className="nav__icon" />
+        <FaWhatsapp className="nav__big-icon" />
       </a>
     </nav>
   );
