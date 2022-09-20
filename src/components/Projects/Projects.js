@@ -13,9 +13,6 @@ import { Project } from "../Project/Project.js";
 export const Projects = () => {
   const [count, setCount] = useState(1);
 
-  const [rightButtonActive, setRightButtonActive] = useState(true);
-  const [leftButtonActive, setLeftButtonActive] = useState(false);
-
   const projects = [
     {
       id: 1,
@@ -49,48 +46,38 @@ export const Projects = () => {
   ];
 
   function handleRightClick() {
-    if (count < projects.length) {
-      setLeftButtonActive(true);
-      setCount(count + 1);
-    } else {
-      setRightButtonActive(false);
-    }
+    if (count < projects.length) setCount(count + 1);
   }
 
   function handleLeftClick() {
-    if (count > 1) {
-      setRightButtonActive(true);
-      setCount(count - 1);
-    } else {
-      setLeftButtonActive(false);
-    }
+    if (count > 1) setCount(count - 1);
   }
 
   return (
     <section className="container" id="projects">
       <h2 className="projects__title">projects</h2>
       <div className="projects__container">
-        <button
-          onClick={handleLeftClick}
-          className={`left__button ${
-            leftButtonActive ? "" : "left__button_type_not-active"
-          }`}
-          type="submit"
-        >
-          <IoMdArrowDropleftCircle className="button__icon" />
-        </button>
+        {count > 1 && (
+          <button
+            onClick={handleLeftClick}
+            className="left__button"
+            type="submit"
+          >
+            <IoMdArrowDropleftCircle className="button__icon" />
+          </button>
+        )}
         {projects.map(
           (el) => el.id === count && <Project key={el.id} el={el} />,
         )}
-        <button
-          onClick={handleRightClick}
-          className={`right__button ${
-            rightButtonActive ? "" : "right__button_type_not-active"
-          }`}
-          type="submit"
-        >
-          <IoMdArrowDroprightCircle className="button__icon" />
-        </button>
+        {count < projects.length && (
+          <button
+            onClick={handleRightClick}
+            className="right__button"
+            type="submit"
+          >
+            <IoMdArrowDroprightCircle className="button__icon" />
+          </button>
+        )}
       </div>
     </section>
   );
