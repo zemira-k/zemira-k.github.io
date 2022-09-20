@@ -1,7 +1,6 @@
 .about__container {
   display: flex;
   flex-direction: row;
-  margin-top: 50px;
   align-items: center;
 }
 
@@ -11,7 +10,7 @@
 }
 
 .about__text {
-  padding: 50px;
+  padding: 0 50px 50px 50px;
 }
 
 .about__subtitle {
@@ -20,7 +19,7 @@
 
 @media screen and (max-width: 1200px) {
   .about__text {
-    padding: 30px;
+    padding: 0 30px 30px 30px;
   }
   .about__subtitle {
     margin-top: 15px;
